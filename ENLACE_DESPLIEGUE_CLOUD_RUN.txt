@@ -1,0 +1,29 @@
+ENLACE DE DESPLIEGUE EN LA NUBE
+
+Proyecto:
+Sistema Inteligente de Evaluación de Riesgo Crediticio
+
+Plataforma:
+Google Cloud Run
+
+URL pública de la aplicación:
+https://riesgo-crediticio-ml-docker-602622367890.us-central1.run.app
+
+Endpoints de validación:
+- Aplicación web:
+  https://riesgo-crediticio-ml-docker-602622367890.us-central1.run.app
+
+- Documentación de la API:
+  https://riesgo-crediticio-ml-docker-602622367890.us-central1.run.app/docs
+
+- Health check:
+  https://riesgo-crediticio-ml-docker-602622367890.us-central1.run.app/health
+
+- Información del modelo:
+  https://riesgo-crediticio-ml-docker-602622367890.us-central1.run.app/model-info
+
+Repositorio GitHub:
+https://github.com/3seatiger-stack/riesgo-crediticio-ml-docker
+
+Autor:
+Jorge Arturo Vázquez Meza
