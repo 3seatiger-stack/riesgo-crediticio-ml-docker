@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Evaluación de Riesgo Crediticio</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="eyebrow">Machine Learning · API REST · Docker</p>
+      <h1>Evaluación de Riesgo Crediticio</h1>
+      <p class="subtitle">Estimación académica de incumplimiento a 90 días con Random Forest y umbral 0.62.</p>
+    </header>
+
+    <section class="card">
+      <form id="risk-form">
+        <div class="grid">
+          <label>Ingreso mensual
+            <input name="ingreso_mensual" type="number" min="0" step="100" value="32000" required>
+          </label>
+          <label>Antigüedad laboral (años)
+            <input name="antiguedad_laboral" type="number" min="0" max="60" step="0.1" value="5.5" required>
+          </label>
+          <label>Saldo promedio
+            <input name="saldo_promedio" type="number" min="0" step="100" value="18000" required>
+          </label>
+          <label>Utilización de crédito (0-1)
+            <input name="utilizacion_credito" type="number" min="0" max="1" step="0.01" value="0.65" required>
+          </label>
+          <label>Historial de moras
+            <input name="historial_moras" type="number" min="0" step="1" value="2" required>
+          </label>
+          <label>Relación deuda/ingreso (0-1)
+            <input name="relacion_deuda_ingreso" type="number" min="0" max="1" step="0.01" value="0.42" required>
+          </label>
+          <label>Edad de cuenta (años)
+            <input name="edad_cuenta" type="number" min="0" step="0.1" value="6" required>
+          </label>
+          <label>Consultas de buró
+            <input name="consultas_buro" type="number" min="0" step="1" value="3" required>
+          </label>
+          <label>Variabilidad de ingreso (0-1)
+            <input name="variabilidad_ingreso" type="number" min="0" max="1" step="0.01" value="0.20" required>
+          </label>
+          <label>Monto solicitado
+            <input name="monto_solicitado" type="number" min="0" step="100" value="85000" required>
+          </label>
+        </div>
+        <button type="submit">Evaluar riesgo</button>
+      </form>
+    </section>
+
+    <section id="result" class="card result hidden" aria-live="polite"></section>
+
+    <footer>
+      <a href="/docs" target="_blank" rel="noreferrer">Documentación interactiva de la API</a>
+      <span>·</span>
+      <a href="/health" target="_blank" rel="noreferrer">Health check</a>
+    </footer>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

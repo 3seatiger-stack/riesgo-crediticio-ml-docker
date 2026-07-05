@@ -1,0 +1,147 @@
+[
+  {
+    "file": ".dockerignore",
+    "sha256": "a4138910791b2fe7246fb61656122e1a123fff517b3f1dc2a5c5ebcddf5fdf4e",
+    "bytes": 95
+  },
+  {
+    "file": ".github/workflows/tests.yml",
+    "sha256": "d6be16223c0bbe9a9376eee61fbd824a45b66435a4304693465b2096d1daa447",
+    "bytes": 306
+  },
+  {
+    "file": ".gitignore",
+    "sha256": "72a4dc891287a38467650480efbcc2d4deaef085b02c4e98fdc7cdf7b2b7de8f",
+    "bytes": 82
+  },
+  {
+    "file": "CHANGELOG.md",
+    "sha256": "131ba3756e00a3d395f2c454b1392c444b1ee39a10862248637122ed935e08a8",
+    "bytes": 223
+  },
+  {
+    "file": "Dockerfile",
+    "sha256": "94cda6e18379aef5720d64696c9704d556fb00737142fe76b1f498d99d75d468",
+    "bytes": 503
+  },
+  {
+    "file": "LICENSE",
+    "sha256": "ab03fe1ad006b686f3425240628fe10958f47f4a1827544f821a19da20e4550e",
+    "bytes": 758
+  },
+  {
+    "file": "MANIFEST.json",
+    "sha256": "3cf0834a9a05269a21aeefc8b64987d3e7a70a6187c481f054626689cbc9886a",
+    "bytes": 3996
+  },
+  {
+    "file": "README.md",
+    "sha256": "93a7d131e5f497e41315e84e8bacca98fd0293c64f639681366801e1128baac1",
+    "bytes": 3319
+  },
+  {
+    "file": "app/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "file": "app/main.py",
+    "sha256": "4c96a91aa2466c75b9e894ed85f0f89c95581605aa892eecf94a0defd03110cf",
+    "bytes": 1493
+  },
+  {
+    "file": "app/model_service.py",
+    "sha256": "608b36bf07655fb1c8d40634cf399800df56cc1875e26c54605357ebe9a5f876",
+    "bytes": 1587
+  },
+  {
+    "file": "app/schemas.py",
+    "sha256": "5a144711125275bb26e0a6d34713c269386d777eeee06420e2773cb5099440b2",
+    "bytes": 1322
+  },
+  {
+    "file": "docker-compose.yml",
+    "sha256": "d5f46bb18f664f7619c99e16020c1f0f05788b6d5bab3af71c151813cf7651b6",
+    "bytes": 220
+  },
+  {
+    "file": "docs/ARQUITECTURA.md",
+    "sha256": "ab4e443a9fce43dcc938c46188b2145e0e50f5189b29ca24bc41db88f632d0ea",
+    "bytes": 2380
+  },
+  {
+    "file": "docs/GUIA_EVIDENCIAS.md",
+    "sha256": "75ac9c4b7ccaee8aadf45c0963d408df23cfff735c5363d20b8cc9ac9e5742db",
+    "bytes": 1217
+  },
+  {
+    "file": "docs/MANUAL_DESPLIEGUE.md",
+    "sha256": "c4a21d46c57e310fa3c8e4e7f94a2d6d75171ad78712edcea3431f4952ad0931",
+    "bytes": 3399
+  },
+  {
+    "file": "docs/USO_IA_DOCUMENTACION.md",
+    "sha256": "2f31d111cdd2cec471307ec53bea8a1e3e966c35af6d347884506b6a02809261",
+    "bytes": 1379
+  },
+  {
+    "file": "docs/VALIDACION_PRUEBAS.md",
+    "sha256": "ad849f8b37233137a4a68a7be4832efa7e1e22f410fd136fa8991fe4d9138050",
+    "bytes": 3518
+  },
+  {
+    "file": "evidence/README.md",
+    "sha256": "d14c6892a562dcd2f2613e2fd5ca55d45590ea8628f69ecbfd44f8086b867fe2",
+    "bytes": 158
+  },
+  {
+    "file": "frontend/app.js",
+    "sha256": "f10ed1b5769618f0f9f7a9c7de9e7847be252884248cfb7b5746f8c0eccd9b0c",
+    "bytes": 1526
+  },
+  {
+    "file": "frontend/index.html",
+    "sha256": "8816da69251417e958c139a19f2d3c76ce5ca662379519faf79ce49f1f455aa5",
+    "bytes": 2696
+  },
+  {
+    "file": "frontend/styles.css",
+    "sha256": "fa78b4758c7c614ab325735fecba188bba8b09c15c17d0591c92fc99e51bb827",
+    "bytes": 1778
+  },
+  {
+    "file": "model/metadata.json",
+    "sha256": "951c29d522313e8d714e6009bf5f09a4a6dce60cd5eee50e81171afb512be7e9",
+    "bytes": 1209
+  },
+  {
+    "file": "model/random_forest_credito.joblib",
+    "sha256": "12ee3b5ff135c81cb0793a7511fc4238bfeaa870b1dc37a0f242cd97f4cbe6b6",
+    "bytes": 9330233
+  },
+  {
+    "file": "requirements-dev.txt",
+    "sha256": "b9ca59fb1290d86969bbba5392477845272bf7f8a148b41b392bb7f3b20e8bf6",
+    "bytes": 34
+  },
+  {
+    "file": "requirements.txt",
+    "sha256": "9fdd26e595ad592b7e7b6e3b907ce12e63f0dcbafe6bd3ff7d3e3d1eaeb97e2e",
+    "bytes": 150
+  },
+  {
+    "file": "tests/test_api.py",
+    "sha256": "892ad71554c959df5c0d5bc5395d7407bd64ec6a9d1da09facb6f0866601b0b1",
+    "bytes": 1836
+  },
+  {
+    "file": "tests/test_cases.py",
+    "sha256": "62b4da4fa462c53464586d6f06c1e3207a56d50864f04f8c56299bd37eb23fa0",
+    "bytes": 1005
+  },
+  {
+    "file": "training/train_model.py",
+    "sha256": "3843f5530354ae97ed9156540796b00bda189e99e607f5c75cde6504dcbce404",
+    "bytes": 3895
+  }
+]

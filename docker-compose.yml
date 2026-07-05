@@ -1,0 +1,10 @@
+services:
+  riesgo-crediticio:
+    build: .
+    image: riesgo-crediticio-api:1.0.0
+    container_name: riesgo-crediticio-api
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: "8080"
+    restart: unless-stopped

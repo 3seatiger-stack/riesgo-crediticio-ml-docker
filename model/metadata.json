@@ -1,0 +1,49 @@
+{
+  "project_name": "Sistema Inteligente de Evaluación de Riesgo Crediticio",
+  "model_type": "RandomForestClassifier",
+  "threshold": 0.62,
+  "target": "incumplimiento_90d",
+  "positive_class": 1,
+  "feature_names": [
+    "ingreso_mensual",
+    "antiguedad_laboral",
+    "saldo_promedio",
+    "utilizacion_credito",
+    "historial_moras",
+    "relacion_deuda_ingreso",
+    "edad_cuenta",
+    "consultas_buro",
+    "variabilidad_ingreso",
+    "monto_solicitado"
+  ],
+  "dataset": {
+    "type": "synthetic",
+    "records": 2500,
+    "random_state": 42
+  },
+  "reference_academic_metrics": {
+    "accuracy": 0.9168,
+    "precision": 0.8589,
+    "recall": 0.8284,
+    "f1": 0.8434,
+    "auc": 0.9593
+  },
+  "packaged_model_validation_metrics": {
+    "accuracy": 0.904,
+    "precision": 0.936,
+    "recall": 0.6923076923076923,
+    "f1": 0.7959183673469388,
+    "auc": 0.9687143153742344,
+    "confusion_matrix": [
+      [
+        448,
+        8
+      ],
+      [
+        52,
+        117
+      ]
+    ]
+  },
+  "notes": "El umbral 0.62 mantiene continuidad con la entrega académica previa. Las métricas del artefacto empaquetado pueden variar si cambia el script de entrenamiento o la versión de scikit-learn."
+}
